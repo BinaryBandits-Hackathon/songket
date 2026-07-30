@@ -1,0 +1,1 @@
+I, callebtc, creator of Echo for android, owner of the copyright claims, and owner of the official Echo android repository (https://github.com/permissionlesstech/Echo-android), hereby authorize Verse Communication PBC to publish Echo (com.Echo.doid) on the Google Play Store.
