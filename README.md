@@ -55,24 +55,40 @@ SongKet is an Android messaging application that enables peer-to-peer communicat
 | Location | Required by Android for BLE scanning |
 | Notifications | Message alerts |
 
-## How to Build
+## How to Build and Run
+
+### Prerequisites (Setup)
+- **Android Studio**: Latest version recommended.
+- **Java Development Kit (JDK)**: JDK 8 or higher (project targets Java 1.8).
+- **Physical Device Recommended**: Since this app relies on Bluetooth Low Energy (BLE) for mesh networking, testing on a physical Android device (Android 8.0+) is highly recommended. Emulators generally lack proper BLE support.
+
+### Build Instructions
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/julyhackathon2026/songket.git
+   cd songket
    ```
 
-2. Open in Android Studio
+2. Open the project in Android Studio and allow Gradle to sync dependencies.
 
-3. Build the project:
+3. Build the debug APK:
    ```bash
    ./gradlew assembleDebug
    ```
+   *(On Windows, use `gradlew.bat assembleDebug`)*
 
-4. Install on device:
-   ```bash
-   ./gradlew installDebug
-   ```
+### Run Instructions
+
+1. Enable **Developer Options** and **USB Debugging** on your Android device.
+2. Connect the device to your computer.
+3. Install and run the app:
+   - **Via Android Studio:** Select your device and click the **Run 'app'** button (Shift + F10).
+   - **Via Command Line:** 
+     ```bash
+     ./gradlew installDebug
+     ```
+4. **Permissions:** Upon first launch, grant the required Bluetooth and Location permissions for the mesh network to operate.
 
 ## App Features
 
