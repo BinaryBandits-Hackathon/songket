@@ -1,4 +1,4 @@
-# Contributing to Echo Android
+# Contributing to Songket
 
 Thank you for your interest in contributing to Echo Android! We welcome contributions from the community.
 
