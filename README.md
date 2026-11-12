@@ -124,3 +124,7 @@ Through this hackathon project, our team gained practical experience in:
 ## Note
 
 This is a hackathon project developed by our team. It is not intended for production use or distribution on app stores at least for now.
+
+## Author
+
+Developed by [@tijulkabir](https://github.com/tijulkabir). Forked from [Echo](https://github.com/tijulkabir/echo) and rebranded as SongKet by team Binary Bandits.
